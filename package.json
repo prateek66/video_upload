@@ -1,0 +1,23 @@
+{
+  "name": "video_upload",
+  "version": "1.0.0",
+  "description": "Video Upload & Video Stream using Node JS",
+  "main": "server.js",
+  "scripts": {
+    "test": "git add . && git commit -m 'updation' && git push origin master",
+    "start": "nodemon server.js"
+  },
+  "keywords": [
+    "Video Upload",
+    "Video Stream",
+    "Node JS",
+    "Express JS"
+  ],
+  "author": "prateek",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.3",
+    "multer": "^1.3.0",
+    "nodemon": "^2.0.6"
+  }
+}
